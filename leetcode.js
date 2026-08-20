@@ -114,15 +114,187 @@
 // console.log(okay)
 
 //Find the missing number in an array.
-let arr = [1, 2, 3, 5, 6];
-let missing = 0;
+// let arr = [1, 2, 3, 5, 6];
+// let missing = 0;
 
-for (let i = 0; i < arr.length; i++) {
-    if (arr[i] + 1 !== arr[i + 1]) {
-        console.log(arr[i] + 1)
-        break;
-    }
-}
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] + 1 !== arr[i + 1]) {
+//         console.log(arr[i] + 1)
+//         break;
+//     }
+// }
+
+//reverse a string
+// let str="sama"
+// let dam=str.split("").reverse().join("")
+// console.log(dam)
+//pallindrome
+// let str="sama"
+// let dam=str.split("").reverse().join("")
+// console.log(dam)
+
+
+//Find the largest number in an array.
+// let str = [234, 546, 45, 78, 76, 9, 7, 879, 78978978978]
+// let sam = 0;
+// for (let i = 0; i < str.length; i++) {
+//     if (str[i] > sam) {
+//         sam = str[i];
+
+//     }
+
+// }
+// console.log(sam)
+
+//smallest
+// let str = [234, 546, 45, 78, 76, 9, 7, 879, 78978978978]
+// let sam = str[0];
+// for (let i = 0; i < str.length; i++) {
+//     if (str[i] < sam) {
+//         sam = str[i];
+
+
+//     }
+
+// }
+// console.log(sam)
+
+//Find the sum of all array elements.
+// let str = [213, 3425, 7657, 879]
+// let sum = 0;
+
+// for (let i = 0; i < str.length; i++) {
+//     sum = sum + str[i];
+
+// }
+// console.log(sum)
+
+// Find even and odd numbers in an array.
+
+// let str=[234,5,5,5,34,77,90]
+// for(let i=0;i<str.length;i++){
+//     if(str[i]%2==0){
+//         console.log("even",str[i])
+//     }else{
+//         console.log("odd",str[i])
+//     }
+// }
+
+//Remove duplicates from an array.
+// let str = [90, 90, 213, 213, 213, 435, 765, 68]
+// for (let i = 0; i < str.length; i++) {
+//     if (str[i] === str[i + 1]) {
+//         str.splice(i, 1);
+//        i--
+//     }
+
+// }
+
+// console.log(str)
+//Find duplicate elements in an array.
+// let str = [90, 90, 213, 213, 213, 435, 765, 68]
+// for (let i = 0; i < str.length; i++) {
+//     if (str[i] === str[i + 1]) {
+//         str[i + 1] = str[i]
+//         console.log(str[i])
+
+//     }
+// }
+
+//Find the missing number in an array.
+// let str = [90, 90, 213, 213, 213, 435, 765, 68]
+
+// let miss = 0;
+
+// for (let i = 0; i < str.length; i++) {
+
+//     if (str[i] === str[i + 1]) {
+//      str.splice(i,1)
+//      i--
+
+//     }
+// }
+// console.log(str)
+
+//Find duplicate elements in an array.
+
+// let sam = [32, 24, 24, 24, 90, 90, 90, 70];
+
+// let okay = 0;
+
+// for (let i = 0; i < sam.length - 1; i++) {
+
+//    if(sam[i]===sam[i+1]){
+//     okay=sam[i+1]
+//     console.log(okay)
+//    }
+
+// }
+
+//Find the missing number in an array.
+// let str = [1, 2, 3, 5]
+// let j = 0
+// for (let i = 0; i < str.length - 1; i++) {
+//     if (str[i] !== str[i + 1]) {
+//         j = str[i] + 1
+
+//     }
+// }
+// console.log(j)
+
+// let arr = [10, 20, 10, 10, 32, 324, 32];
+
+// let frequency = {};
+
+// for (let i = 0; i < arr.length; i++) {
+
+//     frequency[arr[i]] = i;
+
+
+// }
+// console.log(frequency);
+
+
+//array into object
+// let arr = [10, 20, 10, 10, 32, 324, 32];
+
+// let frequency = {};
+// for (let i = 0; i < arr.length; i++) {
+//     frequency[i] = arr[i];
+
+
+// }
+// console.log(frequency)
+//real one
+
+// let arr = [10, 20, 10, 10, 32, 324, 32];
+// let frequency = {}
+// for (let i = 0; i < arr.length; i++) {
+
+//         if (frequency[arr[i]]) {
+//             frequency[arr[i]]++;
+//         } else {
+//             frequency[arr[i]] = 1;
+//         }
+
+    
+// }
+// console.log(frequency)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
