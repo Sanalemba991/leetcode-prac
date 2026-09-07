@@ -356,7 +356,7 @@
 async function Sana() {
     let sam = await fetch("https://swapi.dev/api/people/1")
     let data = await sam.json()
-    console.log(data);
+    console.log(data.name);
 }
 
 Sana();
