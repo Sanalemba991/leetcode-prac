@@ -352,17 +352,23 @@
 // console.log(second)
 // console.log(longest)
 
+// async function Sana() {
+//     let sam = await fetch("https://swapi.dev/api/planets/")
+//     let data = await sam.json();
+//     console.log(data)
+// }
+// Sana();
 
-async function Sana() {
-    let sam = await fetch("https://swapi.dev/api/people/1")
-    let data = await sam.json()
-    console.log(data.name);
-}
-
-Sana();
-
-
-
+// function dana() {
+//     fetch("https://swapi.dev/api/planets/1/")
+//         .then(function (response) {
+//             return response.json();
+//         })
+//         .then(function (data) {
+//             console.log(data)
+//         })
+// }
+// dana();
 
 
 
