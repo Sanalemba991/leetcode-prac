@@ -76,6 +76,7 @@
 // }
 
 //Find the missing number in an array.
+<<<<<<< HEAD
 // let str = [90, 90, 213, 213, 213, 435, 765, 68]
 
 // let miss = 0;
@@ -376,7 +377,61 @@
 
 
 
+=======
+// let arr = [1, 2, 3, 5, 6];
+// let missing = 0;
+>>>>>>> c44ece9 (loirsjallamdei)
 
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] + 1 !== arr[i + 1]) {
+//         console.log(arr[i] + 1)
+//         break;
+//     }
+// }
+
+
+
+// Fetch data from an API using async/await.
+
+// async function Feetch() {
+//     let feet = await fetch("https://jsonplaceholder.typicode.com/users");
+
+//     let data = await feet.json();
+
+//     // function Search(name) {
+//     //     let user = data.find((item) => item.name === name);
+
+//     //     console.log(user);
+//     // }
+
+//     // Search(prompt(name));
+
+//     function Search(name) {
+//         let user = data.find((item) =>
+//             item.name === name)
+//         console.log(user)
+
+//     }
+//     Search(prompt("enter your name"))
+
+
+// }
+
+// Feetch();
+
+// async function phaba() {
+//     let sam = await fetch("https://jsonplaceholder.typicode.com/users")
+//     let data = await sam.json();
+//     // console.log(data)
+//     function Search(name) {
+
+//         let ram = data.find((item) => item.name === name)
+//         console.log(ram)
+
+//     }
+//     Search(prompt("enter your name"))
+// }
+// phaba()
 
 
 
