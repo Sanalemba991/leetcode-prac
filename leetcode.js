@@ -76,7 +76,6 @@
 // }
 
 //Find the missing number in an array.
-<<<<<<< HEAD
 // let str = [90, 90, 213, 213, 213, 435, 765, 68]
 
 // let miss = 0;
@@ -377,10 +376,9 @@
 
 
 
-=======
 // let arr = [1, 2, 3, 5, 6];
 // let missing = 0;
->>>>>>> c44ece9 (loirsjallamdei)
+// >>>>>>> c44ece9 (loirsjallamdei)
 
 // for (let i = 0; i < arr.length; i++) {
 //     if (arr[i] + 1 !== arr[i + 1]) {
@@ -432,6 +430,120 @@
 //     Search(prompt("enter your name"))
 // }
 // phaba()
+
+
+// async function Sam() {
+//     let ram = await fetch("https://jsonplaceholder.typicode.com/users")
+//     let data = await ram.json()
+//     // console.log(data)
+//     function Search(name) {
+//         let sam = data.find((item) => item.name === name)
+//         console.log(sam)
+
+
+//     }
+//     Search(prompt("enter your name"))
+// }
+// Sam();
+
+// Build a form validation function.
+
+
+// function Validate() {
+//     let name = document.getElementById("name").value;
+//     let age = document.getElementById("age").value;
+//     if (name === "") {
+//         alert("You have to enter your name")
+//     }
+//     else if (age <= 12) {
+//         alert("enter you are not authorised")
+//     }
+
+//     name.value = "";
+//     age.value = "";
+// }
+
+
+
+
+// function Validate() {
+//     let name = document.getElementById("name").value;
+//     let age = document.getElementById("age").value;
+//     if (name === "") {
+//         alert("You have to enter your name")
+//     }
+//     else if (age <= 12) {
+//         alert("enter you are not authorised")
+//     }
+
+//     else {
+//         localStorage.setItem("username", name)
+//         localStorage.setItem("userage", age)
+//         alert(name + " " + age)
+//     }
+//     let username = localStorage.getItem("username")
+//     let userage = localStorage.getItem("userage")
+//     console.log(username)
+//     console.log(userage)
+// }
+
+
+
+function Validate() {
+
+    let firstt = document.getElementById("first").value;
+
+    if (firstt === "") {
+        alert("Enter your task");
+    }
+    else {
+
+        let list = document.getElementById("list");
+
+        let li = document.createElement("li");
+
+        let text = document.createElement("span");
+        text.innerText = firstt;
+
+        // Complete button
+        let complete = document.createElement("button");
+        complete.innerText = "Complete";
+
+        complete.onclick = function () {
+            text.style.textDecoration = "line-through";
+        };
+
+        // Edit button
+        let edit = document.createElement("button");
+        edit.innerText = "Edit";
+
+        edit.onclick = function () {
+            let newTask = prompt("Edit your task", text.innerText);
+
+            if (newTask !== null && newTask !== "") {
+                text.innerText = newTask;
+            }
+        };
+
+        // Delete button
+        let del = document.createElement("button");
+        del.innerText = "Delete";
+
+        del.onclick = function () {
+            li.remove();
+        };
+
+        li.appendChild(text);
+        li.appendChild(complete);
+        li.appendChild(edit);
+        li.appendChild(del);
+
+        list.appendChild(li);
+
+        document.getElementById("first").value = "";
+    }
+}
+
 
 
 
