@@ -489,60 +489,60 @@
 
 
 
-function Validate() {
+// function Validate() {
 
-    let firstt = document.getElementById("first").value;
+//     let firstt = document.getElementById("first").value;
 
-    if (firstt === "") {
-        alert("Enter your task");
-    }
-    else {
+//     if (firstt === "") {
+//         alert("Enter your task");
+//     }
+//     else {
 
-        let list = document.getElementById("list");
+//         let list = document.getElementById("list");
 
-        let li = document.createElement("li");
+//         let li = document.createElement("li");
 
-        let text = document.createElement("span");
-        text.innerText = firstt;
+//         let text = document.createElement("span");
+//         text.innerText = firstt;
 
-        // Complete button
-        let complete = document.createElement("button");
-        complete.innerText = "Complete";
+//         // Complete button
+//         let complete = document.createElement("button");
+//         complete.innerText = "Complete";
 
-        complete.onclick = function () {
-            text.style.textDecoration = "line-through";
-        };
+//         complete.onclick = function () {
+//             text.style.textDecoration = "line-through";
+//         };
 
-        // Edit button
-        let edit = document.createElement("button");
-        edit.innerText = "Edit";
+//         // Edit button
+//         let edit = document.createElement("button");
+//         edit.innerText = "Edit";
 
-        edit.onclick = function () {
-            let newTask = prompt("Edit your task", text.innerText);
+//         edit.onclick = function () {
+//             let newTask = prompt("Edit your task", text.innerText);
 
-            if (newTask !== null && newTask !== "") {
-                text.innerText = newTask;
-            }
-        };
+//             if (newTask !== null && newTask !== "") {
+//                 text.innerText = newTask;
+//             }
+//         };
 
-        // Delete button
-        let del = document.createElement("button");
-        del.innerText = "Delete";
+//         // Delete button
+//         let del = document.createElement("button");
+//         del.innerText = "Delete";
 
-        del.onclick = function () {
-            li.remove();
-        };
+//         del.onclick = function () {
+//             li.remove();
+//         };
 
-        li.appendChild(text);
-        li.appendChild(complete);
-        li.appendChild(edit);
-        li.appendChild(del);
+//         li.appendChild(text);
+//         li.appendChild(complete);
+//         li.appendChild(edit);
+//         li.appendChild(del);
 
-        list.appendChild(li);
+//         list.appendChild(li);
 
-        document.getElementById("first").value = "";
-    }
-}
+//         document.getElementById("first").value = "";
+//     }
+// }
 
 
 
